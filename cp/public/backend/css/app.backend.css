@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.table td,
+.table th {
+  padding: .75rem 1rem;
+}
+
+.avatar-source {
+  text-align: center;
+}
+
+.avatar-source img {
+  width: 120px;
+}
+
+.avatar-source img:hover,
+.avatar-source div:hover {
+  background-color: #fff;
+  border: 2px solid #3490dc;
+  cursor: pointer;
+}
+
+#avatar.croppie-container {
+  padding: 35px 30px 30px;
+}
+
