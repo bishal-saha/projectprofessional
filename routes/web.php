@@ -12,7 +12,8 @@
 
 use Illuminate\Support\Facades\Auth;
 
-Route::get('/', 'Frontend\PageController@showHome')->name('home');
+Route::get('/', 'Frontend\HomeController@index')->name('frontend.index');
+Route::get('/home', 'Frontend\HomeController@index')->name('frontend.home');
 
 require_once 'web/auth.php';		// Routes for login, logout, forgot password and registration.
 
