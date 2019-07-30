@@ -47,8 +47,8 @@
                     </th>
                     <th width="25%" data-toggle="true">Name</th>
                     <th width="15%" data-hide="phone">Username</th>
-                    <th width="30%" data-hide="phone">Email</th>
-                    <th width="15%" data-hide="phone">Phone</th>
+                    <th width="25%" data-hide="phone">Email</th>
+                    <th width="20%" data-hide="phone">Phone</th>
                     <th width="5%" data-hide="phone">Status</th>
                     <th width="5%" class="text-center">Actions</th>
                 </tr>
